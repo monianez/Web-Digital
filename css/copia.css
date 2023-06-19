@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+}
+
+li{ list-style: none; }
+
+h1 , h2 , h3 , h4 , h5 , h6 , strong{
+    font-size: inherit;
+    font-weight: inherit;
+}
+a{
+    display: block;
+    color:inherit;
+    text-decoration: none;
+}
+p a{
+    display: inline;
+} 
+
+:root{
+    font-size: 100%;
+}
+
+body{
+    
+}
+
+.Header {
+    width: 100%;
+    min-height: 6.875rem;
+
+    margin: auto;
+    padding: 0 2.5rem;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.Header-svg {
+    width: 3rem;
+    background-color: red;
+}
+
+.Header-left {
+    background-color: lime;
+}
+
+.Header-nav {
+    width: 60%;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3.125rem;
+}
+
+.Header-logo {
+
+}
+
+.Header-a {
+
+}
+
+.Header-img {
+    width: 6.25rem;
+}
+
+.Header-ul {
+    width: 100%;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.Header-li {}
+
+.Header-item {}
+
+.Header-right {
+    border: solid 3px black;
+    text-align: center;
+
+    padding: 1.25rem 3.125rem;
+}
+
+.Header-right:hover {
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 1000px) {
+    .Nav-ul {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .Get-tickets {
+        display: none;
+    }
+}
+
+
+
+
+.Main {
+    width: 100%;
+}
+
+.Title {
+    width: 95%;
+
+    margin: auto;
+
+    position: relative;
+}
+
+.Title-h2 {
+    width: 80%;
+
+    margin: auto;
+}
+
+.Title-img-digital {
+    width: 100%;
+
+    position: absolute;
+}
+
+.Title-brillo {
+    width: 50%;
+    
+    margin: auto;
+}
+
+.Title-img-brillo {
+    width: 100%;
+
+}
+
+.Title-fecha {
+    width: 20%;
+    background-color: cadetblue;
+}
