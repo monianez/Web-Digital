@@ -1,17 +1,18 @@
-## Descripción
-Web Digital copycat
-Esta es una web creada con html y css usando metodología BEM
+## Description
+Digital Web copycat
+This is a web created with html and css using SUIT CSS methodology
 
-## Autor
+## Author
 Mónica Añez Hernández
 
+## Linkedin
 [Linkedin] https://www.linkedin.com/in/monicaanez/
 
-## Ver ejemplo en vivo
+## See live web
 https://monianez.github.io/web-Digital/
 
-## Instalación
-Este proyecto no necesita instalación. Simplemente abre la carpeta o haz doble click en el .html
+## Instalation
+This project does not require installation. Just open the folder or double-click on the .html file
 
-## Contacto
-Me puedes escribir a monianez@gmail.com
+## Contact
+You can write me at monianez@gmail.com
